@@ -62,4 +62,4 @@ TODO
 ----
 See the [Todo List][todo]
 
-[todo]: http://github.com/mthjones/python.sugar/blob/master/TODO.markdown
+[todo]: http://github.com/mthjones/python.sugar-source/blob/master/TODO.markdown
