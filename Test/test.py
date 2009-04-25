@@ -100,7 +100,7 @@ class ABC(object, metaclass=Blah):
 	__metaclass__ = ABCMeta
 	
 	@not_builtin_decorator
-	@classmethod(arg1, arg2)
+	@classmethod
 	def a(self, b, c, d):
 		print("hello!")
 		print  ("hello")
