@@ -7,6 +7,7 @@ Syntax/Itemizers
 - Lambda function improvements
 - Function argument type signature
 - Builtin variables/functions/exceptions/etc. classification
+- Set literals
 - Code folding for
   - functions
   - classes
