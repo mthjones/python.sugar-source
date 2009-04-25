@@ -17,7 +17,10 @@ Syntax/Itemizers
 
 CodeSense
 ---------
-- Everything -- these haven't been started yet!
+- Context sensitivity
+- Completions (eg. file&rarr; becomes file('path/to/file', 'mode', bufsize)
+- Finish function definitions
+- Everything else...
 
 CocoaSugars Stuff
 -----------------
