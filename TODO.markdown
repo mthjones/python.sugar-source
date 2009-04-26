@@ -3,7 +3,8 @@ Todo List for Python.sugar
 
 Syntax/Itemizers
 -----------------
-- Decorators (class/function)
+- Decorators (class/function differentiation needed)
+- Comprehensions (dict/list/generators)
 - Lambda function improvements
 - Function argument type signature
 - Builtin variables/functions/exceptions/etc. classification
