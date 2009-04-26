@@ -3,7 +3,7 @@ Todo List for Python.sugar
 
 Syntax/Itemizers
 -----------------
-√ Decorators (class/function)
+- (√) Decorators (class/function)
 - Decorators (class/function differentiation needed)
 - Comprehensions (dict/list/generators)
 - Lambda function improvements
@@ -20,8 +20,8 @@ Syntax/Itemizers
 CodeSense
 ---------
 - Context sensitivity
-- Completions (eg. file&rarr; becomes file('path/to/file', 'mode', bufsize)
-√ Finish function definitions
+- Completions (eg. file&rarr; becomes file(filepath, mode, bufsize)
+- (√) Finish function definitions
 - Everything else...
 
 CocoaSugars Stuff
