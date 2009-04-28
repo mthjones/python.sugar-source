@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# encoding: utf-8
 """
 @description Python Sugar tests
 @author 	 Matt Jones <m.t.h.jones@gmail.com>
@@ -127,6 +128,11 @@ class ABC(object, metaclass=Blah):
 	@not_builtin_decorator
 	@classmethod
 	def a(self, b, c, d):
+		if a:
+			do_something
+		else:
+			do_something_else
+		
 		print("hello!")
 		print  ("hello")
 		print "hello"
@@ -137,7 +143,7 @@ class ABC(object, metaclass=Blah):
 		self.  do_something
 	
 
-lambda abc=5, a, e: print(x)
+lambda abc=5, a, e, a=(1,2,3): print(x)
 
 # keywords
 from blah import *
@@ -233,3 +239,12 @@ in
 "  "
 '  '
 `  `
+
+if a:
+	print("a")
+elif b:
+	print("b")
+else:
+	print("dunno")
+
+

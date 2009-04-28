@@ -25,25 +25,25 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <itemizer>
-	<recipe name="function">
-		<start-selector>container.function:has-child(name:capture(name)):has-child(whitespace:capture(whitespace))</start-selector>
-		<end-selector>${whitespace}</end-selector>
+	<recipe name="container.function">
+		<start-selector>container.function:has-child(name:capture(name))</start-selector>
+		<end-selector>delimiter.container.end.function</end-selector>
 		<subrecipes>
 			<include-root-recipes />
 		</subrecipes>
 	</recipe>
 	
 	<!-- Matches a class definition -->
-	<recipe name="class">
-		<start-selector>container.class:has-child(name:capture(name)):has-child(whitespace:capture(whitespace)) > delimiter.block-start</start-selector>
-		<end-selector>delimiter.block-end</end-selector>
+	<recipe name="container.class">
+		<start-selector>container.class:has-child(name:capture(name))</start-selector>
+		<end-selector>delimiter.container.end.class</end-selector>
 		<subrecipes>
 			<include-root-recipes />
 		</subrecipes>
 	</recipe>
 	
 	<!-- Matches triple-quoted strings -->
-	<recipe name="docstring">
+	<recipe name="metadata.comment.documentation">
 		<class>ESBaseItem</class>
 		<start-selector>metadata.comment.documentation > begin:capture(itemizer-firstused)</start-selector>
 		<end-selector>metadata.comment.documentation.end</end-selector>
