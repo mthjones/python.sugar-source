@@ -141,7 +141,10 @@ lambda abc=5, a, e: print(x)
 
 # keywords
 from blah import *
+from abc import abc
 import a
+
+from Calendar import something as name
 
 from
 
